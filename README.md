@@ -5,7 +5,7 @@ This server was created with the packages grpcio and grpcio-tools. The proto fil
 
 The project is divided in a modular fashion. The meter readings data is stored in the data folder. All files which run and support the server are in the server_app folder. Finally, there is a tests folder.
 
-The server app has been created with an OOP approach, definining an actor for each necessary action. This enables readability, maintainability and extensibility. All the actors can be easily modified or extended with new functions if new requirements were to arise. Note that for such an simple example, this approach might seem like overdoing, yet it has been chosen for the sake of presentability.
+The server app has been created with an OOP approach, definining an actor for each necessary action. This enables readability, maintainability and extensibility. All the actors can be easily modified or extended with new functions if new requirements were to arise. Note that for such a simple example, this approach might seem like overdoing, yet it has been chosen for the sake of presentability.
 
 # How to run the server
 Clone the repository and in your virtual environment's terminal run:
